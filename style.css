@@ -1,0 +1,30 @@
+/*
+Theme Name: Mi Tema Base
+Author: Oscar
+Version: 1.0
+*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+table {
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+button {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005177;
+}
