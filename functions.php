@@ -1,17 +1,15 @@
 <?php
 if (!defined('ABSPATH')) exit;
 
-require_once __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
+require_once __DIR__ . '/plugin-update-checker-master/plugin-update-checker.php';
 
-use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+use YahnisElsts\PluginUpdateChecker\v5p6\PucFactory;
 
-$updateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com//OscarBozadaSSM/CeroTheme',
+$themeUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://github.com/OscarBozadaSSM/CeroTheme',
     __FILE__,
     'CeroTheme'
 );
-
-$updateChecker->setBranch('main');
 
 add_action('wp_footer', function() {
     echo '<p style="text-align:center;">CERO funcionando</p>';
