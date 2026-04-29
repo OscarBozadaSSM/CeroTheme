@@ -3,7 +3,7 @@ Theme Name: CeroTheme
 Theme URI: https://github.com/OscarBozadaSSM/CeroTheme
 Author: Tu Nombre
 Description: Tema personalizado para CERO
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 5.0
 Tested up to: 6.0
 Text Domain: mi-tema
@@ -23,7 +23,7 @@ table {
 }
 
 button {
-    background: #0073aa;
+    background: #213879;
     color: white;
     border: none;
     padding: 8px 12px;
